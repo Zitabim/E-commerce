@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkout</title>
+</head>
+<body>
+	<header><strong>WELCOME TO THE CHECKOUT PAGE</strong></header>
+	<P>
+		<h2>Billing Information: </h2>
+		<form>
+			<form autocomplete="off"><label for="name">Full Names:    </label><input type="username" name="text" required>
+				<p><form autocomplete="off"><label for="email">E-mail address: </label><input type="email" name="text" required></p>
+					<p><form autocomplete="off"><label for="address"> Street Address: </label><input type="Address" name="text" required></p>
+						<p><form autocomplete="off"><label for="address"> City: </label><input type="Address" name="text" required></p>
+							<p><form autocomplete="off"><label for="address"> State: </label><input type="Address" name="text" required></p>
+								<p><form autocomplete="off"><label for="address"> Postal Code: </label><input type="Address" name="text" required></p>
+		</form>
+		<p>Billing address same as shipping address? </p>
+		<p><input type="radio" name="answer" value="Yes" /> Yes</p>
+		<p>
+			<input type="radio" name="answer" value="No" /> No
+		</p>
+		<h2>Payment Information</h2>
+		
+					<p align="left">Card type:<select name="card type" size="1">
+					 <option value="Visa">Visa</option>
+				     <option value="Mastercard">Mastercard</option>
+				     <option value="paypal">Paypal</option>
+					 <option value="Other">Other</option></select>
+					    </p>
+					    <p align="left">Name on card:<input type="text"></p>
+					    <p align="left">Card number:<input type="text"></p>
+				    <p align="left">Expiration Date: *<input type="text"><br /><i>formatted as mm/yy</i></p>
+				    <p align="left">CVV: *<input type="text">
+				    </p>
+				     <p>
+					<input type="submit" value="Validate the payment" /></p>
+    </body>
+</html>
